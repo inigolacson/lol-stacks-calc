@@ -1,0 +1,36 @@
+@use '../variables.scss' as *;
+
+.formContainer{
+    position: absolute;
+    
+    @media (max-width: 1600px) {
+        
+    }
+}
+
+.mainTitle{
+    position: absolute;
+    font-family: 'League';
+    color: #E6B900;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 10vw, 5.5rem);
+    width: 670px;
+    height: 316px;
+    top: 50.37vh;
+    left: 53.07vw;
+    z-index: 5;
+    margin-right: 10rem;
+
+    @media (max-width: 1600px) {
+        position: relative;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        min-width: 600px;
+        width: 550px;
+        height: 250px;
+        top: 3.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
