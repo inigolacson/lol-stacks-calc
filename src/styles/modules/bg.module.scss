@@ -22,38 +22,38 @@
 }
 
 .mainTitle{
-    width: 670px;
-    height: 316px;
+    position: absolute;
     font-family: 'League';
+    color: #E6B900;
     font-weight: 400;
     font-size: clamp(1.5rem, 10vw, 5.5rem);
+    width: 670px;
+    height: 316px;
     top: 50.37vh;
     left: 53.07vw;
-    color: #E6B900;
     z-index: 5;
-    position: absolute;
 
     @media (max-width: 1200px) {
-        min-width: 600px;
         position: relative;
-        top: 5rem;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 550px;
-        height: 250px;
         justify-items: center;
         justify-content: center;
         text-align: center;
+        min-width: 600px;
+        width: 550px;
+        height: 250px;
+        top: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
 .footer{
-    width: 80vw;
+    position: absolute;
+    text-align: center;
     color: #ffffff91;
     font-family: 'Segoe UI';
     font-size: 0.9375rem;
-    position: absolute;
-    text-align: center;
+    width: 80vw;
     bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
