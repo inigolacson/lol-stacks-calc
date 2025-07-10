@@ -32,6 +32,7 @@
     top: 50.37vh;
     left: 53.07vw;
     z-index: 5;
+    margin-right: 4rem;
 
     @media (max-width: 1200px) {
         position: relative;
@@ -41,7 +42,7 @@
         min-width: 600px;
         width: 550px;
         height: 250px;
-        top: 5rem;
+        top: 3.5rem;
         left: 50%;
         transform: translateX(-50%);
     }
