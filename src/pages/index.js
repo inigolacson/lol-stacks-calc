@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from '@styles/modules/home.module.scss';
 
 export default function StacksCalculator() {
   return (
@@ -9,8 +10,12 @@ export default function StacksCalculator() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-      </div>
+      <main>
+        <section className={styles.mainContainer}>
+          <div className={styles.backgroundPicture}></div>
+          <div className={styles.backgroundOverlay}></div>
+        </section>
+      </main>
     </>
   );
 }

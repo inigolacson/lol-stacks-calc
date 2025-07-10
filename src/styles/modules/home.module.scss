@@ -1,1 +1,39 @@
 @use '../variables.scss' as *;
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.backgroundPicture{
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/senna.webp');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.backgroundOverlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: 1;
+}
+
+.formContainer{
+    background-color: white;
+    width: 434px;
+    height: 572px;
+}
+
+.mainTitle{
+    font-family: 'League';
+    font-size: 100px;
+    color: #E6B900;
+}
+
+.footer{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
