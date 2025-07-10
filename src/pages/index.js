@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from '@styles/modules/home.module.scss';
 import { MainBackground } from "./sections/background";
-import { MainForm } from "./sections/content";
+import { Content } from "./sections/content";
 
 export default function StacksCalculator() {
   return (
@@ -14,6 +14,7 @@ export default function StacksCalculator() {
       </Head>
       <main className={styles.mainContainer}>
         <MainBackground/>
+        <Content/>
       </main>
     </>
   );

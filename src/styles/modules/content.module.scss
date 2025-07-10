@@ -1,36 +1,56 @@
 @use '../variables.scss' as *;
 
-.formContainer{
+.contentContainer{
     position: absolute;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5rem;
+    z-index: 5;
+    width: 100%;
+    top: 11%;
+    left: 50;
+
     @media (max-width: 1600px) {
+        flex-direction: column;
+        gap: 2.5rem;    
+        justify-content: baseline;
+        top: 1%;
         
     }
 }
 
-.mainTitle{
-    position: absolute;
-    font-family: 'League';
-    color: #E6B900;
-    font-weight: 400;
-    font-size: clamp(1.5rem, 10vw, 5.5rem);
-    width: 670px;
-    height: 316px;
-    top: 50.37vh;
-    left: 53.07vw;
-    z-index: 5;
-    margin-right: 10rem;
+.formContainer{
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 27.125rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: auto;
 
     @media (max-width: 1600px) {
-        position: relative;
-        justify-items: center;
         justify-content: center;
         text-align: center;
+    }
+}
+
+.mainTitle{
+    position: relative;
+    font-family: 'League';
+    color: #E6B900;
+    margin-top: 23rem;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 10vw, 5.5rem);
+
+    @media (max-width: 1600px) {
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
         min-width: 600px;
-        width: 550px;
-        height: 250px;
-        top: 3.5rem;
-        left: 50%;
-        transform: translateX(-50%);
+        order: -1;
     }
 }
