@@ -1,0 +1,16 @@
+@use '../variables.scss' as *;
+
+.formContainer{
+    position: absolute;
+    width: 434px;
+    height: 572px;
+    left: 23.17vw;
+    top: 23.25vh;
+    background-color: white;
+    z-index: 5;
+    border-radius: 1rem;
+
+    @media (max-width: 1600px) {
+        
+    }
+}
