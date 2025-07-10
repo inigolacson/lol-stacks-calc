@@ -20,3 +20,30 @@
     background-color: rgba(0, 0, 0, 0.507);
     z-index: 1;
 }
+
+.mainTitle{
+    width: 670px;
+    height: 316px;
+    font-family: 'League';
+    font-weight: 400;
+    font-size: clamp(1rem, 5vw, 100px);
+    top: 50.37vh;
+    left: 53.07vw;
+    color: #E6B900;
+    z-index: 5;
+    position: absolute;
+    
+}
+
+.footer{
+    width: 80vw;
+    color: #ffffff91;
+    font-family: 'Segoe UI';
+    font-size: 0.9375rem;
+    position: absolute;
+    text-align: center;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
