@@ -1,11 +1,12 @@
 import form from '@styles/modules/content.module.scss';
 import bg from '@styles/modules/content.module.scss'
+import { SennaCalculator } from '../components/form';
 
 export function Content() {
     return (
         <section className={form.contentContainer}>
                 <div className={form.formContainer}>
-                <p style={{ color: 'black' }}>Test Content</p>
+                <SennaCalculator/>
                 </div>
                 <p className={bg.mainTitle}>SENNA<br/>MIST STACKS<br/>CALCULATOR</p>
         </section>

@@ -10,14 +10,16 @@
     padding: 5rem;
     z-index: 5;
     width: 100%;
-    top: 11%;
-    left: 50;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     @media (max-width: 1600px) {
         flex-direction: column;
         gap: 2.5rem;    
         justify-content: baseline;
-        top: 1%;
+        margin-top: -1rem;
+
         
     }
 }
@@ -31,10 +33,15 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
     height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 
     @media (max-width: 1600px) {
         justify-content: center;
         text-align: center;
+        align-items: center;
+
     }
 }
 
