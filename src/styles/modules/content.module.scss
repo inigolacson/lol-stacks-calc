@@ -31,10 +31,15 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
     height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 
     @media (max-width: 1600px) {
         justify-content: center;
         text-align: center;
+        align-items: center;
+
     }
 }
 
