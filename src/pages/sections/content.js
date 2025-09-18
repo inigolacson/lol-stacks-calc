@@ -1,6 +1,6 @@
 import form from "@styles/modules/content.module.scss";
 import bg from "@styles/modules/content.module.scss";
-import { SennaCalculator } from "../components/form";
+import SennaCalculator from "../components/form";
 
 export default function Content() {
   return (

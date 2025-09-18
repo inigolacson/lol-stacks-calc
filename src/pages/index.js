@@ -1,7 +1,7 @@
 import Head from "next/head";
-import styles from '@styles/modules/home.module.scss';
-import { MainBackground } from "./sections/background";
-import { Content } from "./sections/content";
+import styles from "@styles/modules/home.module.scss";
+import MainBackground from "./sections/background";
+import Content from "./sections/content";
 
 export default function StacksCalculator() {
   return (
@@ -13,8 +13,8 @@ export default function StacksCalculator() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.mainContainer}>
-        <MainBackground/>
-        <Content/>
+        <MainBackground />
+        <Content />
       </main>
     </>
   );
